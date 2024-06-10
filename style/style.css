@@ -1,0 +1,126 @@
+@import url("https://fonts.google.com/specimen/Karla");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+    padding: 1rem;
+    font-family: 'Karla',sans-serif;
+    text-decoration: none;
+    
+}
+
+main{
+    max-width: 640px;
+
+}
+
+.container{
+    margin: 5%;
+    box-shadow: 0.4px 0.4px 40px 0.4px hsl(218, 22%, 67%),
+                -0.4px -0.4px 40px 0.4px hsl(218, 22%, 67%);
+    border-radius: 6px;
+}
+
+.first__container{
+    background-color: #ffff;
+    padding: 7%;
+    border-radius: 6px 6px 0 0;
+    
+
+}
+.first__title{
+    color: hsl(179, 62%, 43%) ;
+    margin-bottom: 1.5rem;
+    
+}
+
+.first__secondary__title{
+  color: hsl(71, 73%, 54%);  
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.paragraph{
+    color: hsl(203, 13%, 80%);
+    font-size: 15px;
+}
+
+
+
+
+.container__division{
+    display: flex;
+}
+
+.second__container{
+    background-color: hsl(179, 62%, 43%) ;
+    width: 50%;
+    padding: 7%;
+    border-radius:  0 0 0 6px ;
+}
+
+.second__title{
+    color: #ffff;
+    font-size: 13.5px;
+    margin-bottom: 1rem;
+}
+
+.value{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.dolar{
+    color: #ffff; 
+}
+
+.month{
+    color: hsl(204, 43%, 93%);  
+    font-weight: 100;
+}
+
+.descreption{
+    color: #ffff;
+    margin-bottom: 2rem;
+    font-size: 13.9px;
+}
+
+.division{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: #ffff;
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 6px ;
+    text-align: center;
+    font-weight: 700;
+}
+
+.third__container{
+    background-color: hsla(179, 62%, 43%,0.5);
+    width: 50%;
+    padding: 7%;
+    border-radius: 0 0 6px 0;
+}
+
+.second__descreption{
+    color: #ffff;
+    font-size: 13.9px;
+    font-weight: 400;
+}
